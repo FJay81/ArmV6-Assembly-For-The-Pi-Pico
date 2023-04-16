@@ -1,5 +1,5 @@
 .global memory
-// the rp2040 has 8 r0 - r7 gp registers and some special case register for other stuff like pc and return location frpm loops
+// the rp2040 has 13 r0 - r12 gp registers and some special case register for other stuff like pc and return location frpm loops
 
 memory:
     mov r0, #255 //move the value after the comma into register
